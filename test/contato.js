@@ -8,7 +8,7 @@ casper.test.begin('Starting contact tests', 2, function(test) {
         casper.waitForSelector(
             '.btn-success',
             function() {
-                this.click('body > section > form > div:nth-child(4) > div > button.btn.btn-success');
+                this.click('.btn-success');
             }
         );
     });

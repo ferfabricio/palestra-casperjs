@@ -28,6 +28,6 @@ function comprarCamiseta() {
 
 function refreshPage() {
     setTimeout(function(){
-        window.location.refresh();
+        window.location.reload();
     }, 10000);
 }

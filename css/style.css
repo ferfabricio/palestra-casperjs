@@ -1,0 +1,21 @@
+.banner {
+  background: no-repeat center url("../img/conf-header.png");
+  width: 100%;
+  height: 300px;
+}
+
+.logo {
+  display:;
+}
+
+footer {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+
+.camisetas div {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}

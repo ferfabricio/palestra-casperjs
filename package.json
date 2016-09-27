@@ -1,0 +1,15 @@
+{
+  "name": "casper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "static": "node_modules/.bin/static"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "node-static": "^0.7.8"
+  }
+}

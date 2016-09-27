@@ -1,5 +1,6 @@
-casper.test.begin('Starting home tests', 2, function(test){
+casper.test.begin('Starting home tests', 3, function(test){
     casper.start('http://localhost:8080/', function(){
+        test.assertHttpStatus(200, 'verify http status');
         test.assertEquals(this.getTitle(), 'DevParaná', 'verify page title');
     });
 

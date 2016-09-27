@@ -1,7 +1,6 @@
 casper.test.begin('Starting contact tests', 2, function(test) {
-    casper.start('http://localhost:8080/', function() {
+    casper.start('http://localhost:8080/contato.html', function() {
         test.assertDoesntExist('.alert-success', 'the success message cannot be on the screen');
-        this.clickLabel('Contato', 'a');
     });
 
     casper.then(function() {

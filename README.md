@@ -37,3 +37,7 @@ Executar somente um:
 ```
 casperjs test test/yourtestfile.js
 ```
+
+## Branches com steps
+
+Existem 6 branchs com o código parcial, se você quer escrever seus testes do zero utilize a branch *step-0*

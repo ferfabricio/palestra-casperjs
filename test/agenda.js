@@ -1,7 +1,5 @@
 casper.test.begin('Starting "agenda" tests', 1, function(test){
-    casper.start('http://localhost:8080/', function(){
-        this.clickLabel('Agenda', 'a');
-    });
+    casper.start('http://localhost:8080/agenda.html');
 
     casper.then(function(){
         test.assertEval(function() {

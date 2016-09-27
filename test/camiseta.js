@@ -1,7 +1,5 @@
 casper.test.begin('Starting contact tests', 2, function(test) {
-    casper.start('http://localhost:8080/', function() {
-        this.clickLabel('Camisetas', 'a');
-    });
+    casper.start('http://localhost:8080/camisetas.html');
 
     casper.then(function() {
         casper.waitForSelector(

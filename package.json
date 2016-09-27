@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "static": "node_modules/.bin/static"
+    "static": "node_modules/.bin/static",
+    "test": "casperjs test test/*.js"
   },
   "author": "",
   "license": "MIT",

@@ -28,7 +28,7 @@ casper.test.begin('Starting contact tests', 2, function(test) {
             function timeout() {
                 test.comment('the selector is not in the screen');
             },
-            11000
+            10000
         );
     });
 
